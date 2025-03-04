@@ -2,7 +2,7 @@ Feature: Plan de pruebas Ejercicio1 politica de privacidad
 
   Background:
     * url "url/login/page"
-    * Given el usuario esta en la pagina de login url
+      Given el usuario esta en la pagina de login url
     * request {"username": "#(username)", "password": "#(password)", "checkbox":"#(checkbox)", "message": "#(message)"}
 
     Scenario Outline: Login con diferentes combinaciones de password, username y politica de privacidad
